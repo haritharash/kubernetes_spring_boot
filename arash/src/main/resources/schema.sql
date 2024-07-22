@@ -1,0 +1,6 @@
+DROP TABLE IF EXISTS Product;  
+CREATE TABLE Product (  
+id INT AUTO_INCREMENT  PRIMARY KEY,  
+name VARCHAR(50) NOT NULL,  
+description VARCHAR NOT NULL  
+);
